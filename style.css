@@ -17,15 +17,9 @@ a {
   cursor: pointer;
 }
 
-.container {
-  padding: 0 102px;
-}
-#landing {
-  background-image: url('images/Rectangle\ 24.png');
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 960px;
-  padding-top: 34px;
+.landing_container {
+  padding: 34px 103px;
+  padding-bottom: 0;
 }
 nav {
   display: flex;
@@ -103,3 +97,45 @@ nav {
   color: #07193d;
   margin: 20px 0;
 }
+.card {
+  margin-top: -172px;
+  margin-left: 85px;
+  cursor: pointer;
+}
+
+/* second section */
+
+.second_container {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0 103px;
+}
+.second_container .right_section {
+  margin-top: 112px;
+}
+.second_container .right_section h5 {
+  color: #0b41af;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 15px 0;
+  width: 183px;
+}
+
+.second_container .right_section h2 {
+  font-weight: bold;
+  font-size: 35px;
+  color: #07193d;
+  margin: 20px 0;
+  text-align: justify;
+}
+.second_container .right_section p {
+  font-weight: normal;
+  font-size: 18px;
+  color: rgba(7, 25, 61, 0.6);
+  line-height: 164.02%;
+  text-align: justify;
+}
+/* second section */
+
+/* why choose arthan */
+/* why choose arthan */
