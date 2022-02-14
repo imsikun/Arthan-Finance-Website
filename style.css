@@ -67,3 +67,39 @@ nav {
   font-size: 16px;
   text-align: center;
 }
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.loan {
+  margin-top: 103px;
+}
+.loan h4 {
+  font-weight: 500;
+  font-size: 16px;
+  color: #0b41af;
+  padding: 10px 14px;
+  background: rgba(11, 65, 175, 0.05);
+  border-radius: 100px;
+  width: 312px;
+  margin-bottom: 35px;
+}
+.loan .fa-solid {
+  font-size: 10px;
+  margin-left: 5px;
+}
+.loan h1 {
+  font-weight: bold;
+  font-size: 60px;
+  margin: 20px 0;
+}
+.loan h1 span {
+  color: #0b41af;
+}
+.loan p {
+  font-weight: 500;
+  font-size: 22px;
+  color: #07193d;
+  margin: 20px 0;
+}
