@@ -157,7 +157,7 @@ nav {
   align-items: center;
 }
 .why_desc .why_left {
-  flex: 0.86;
+  flex: 1;
 }
 .why_desc .why_left h1 {
   font-size: 35px;
@@ -169,6 +169,46 @@ nav {
   font-size: 18px;
   font-weight: normal;
   color: rgba(7, 25, 61, 0.8);
-  line-height: 164.02%;
+  line-height: 30px;
 }
-/* why choose arthan */
+.why_desc_card {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+.why_desc_card .desc_card {
+  width: 292px;
+  height: 211px;
+  padding: 30px;
+  border-radius: 10px;
+}
+.why_desc_card .desc_card .top_section {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+.why_desc_card .desc_card .top_section p {
+  width: 163px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+}
+.why_desc_card .desc_card .short_desc {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 164.02%;
+  color: rgba(7, 25, 61, 0.6);
+}
+.first_card {
+  background-color: #f7f5ff;
+}
+.second_card {
+  background-color: #edfdfa;
+}
+.third_card {
+  background-color: #fff5f4;
+}
+.fourth_card {
+  background-color: #fff4fd;
+}
+/* why choose arthan */ ;
