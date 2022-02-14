@@ -6,6 +6,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* border: 1px solid red; */
 }
 
 body {
@@ -16,9 +17,13 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+.container {
+  padding: 0 100px;
+}
 
 .landing_container {
-  padding: 34px 103px;
+  /* padding: 34px 103px; */
+  padding: 2vw 5vw;
   padding-bottom: 0;
 }
 nav {
@@ -99,7 +104,7 @@ nav {
 }
 .card {
   margin-top: -172px;
-  margin-left: 85px;
+  margin-left: 95px;
   cursor: pointer;
 }
 
@@ -107,8 +112,7 @@ nav {
 
 .second_container {
   display: flex;
-  justify-content: space-evenly;
-  padding: 0 103px;
+  justify-content: space-around;
 }
 .second_container .right_section {
   margin-top: 112px;
@@ -138,4 +142,33 @@ nav {
 /* second section */
 
 /* why choose arthan */
+.whyArthan {
+  width: 100%;
+}
+.whyArthan span {
+  color: #0b41af;
+  font-size: 16px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.why_desc {
+  display: flex;
+  align-items: center;
+}
+.why_desc .why_left {
+  flex: 0.86;
+}
+.why_desc .why_left h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px 0;
+  color: #07193d;
+}
+.why_desc .why_right p {
+  font-size: 18px;
+  font-weight: normal;
+  color: rgba(7, 25, 61, 0.8);
+  line-height: 164.02%;
+}
 /* why choose arthan */
