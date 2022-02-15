@@ -251,9 +251,9 @@ nav {
   display: block;
   content: '';
   border: 2px solid #0b41af;
-  width: 106%;
+  width: 119%;
   position: absolute;
-  left: -174px;
+  left: -204px;
   top: 51px;
   border-radius: 100px;
 }
@@ -271,9 +271,9 @@ nav {
   display: block;
   content: '';
   border: 2px solid #edf3fe;
-  width: 84%;
+  width: 137%;
   position: absolute;
-  left: 256px;
+  left: 168px;
   top: 51px;
   border-radius: 100px;
 }
@@ -291,9 +291,9 @@ nav {
   display: block;
   content: '';
   border: 2px solid #edf3fe;
-  width: 74%;
+  width: 132%;
   position: absolute;
-  left: 222px;
+  left: 145px;
   top: 51px;
   border-radius: 100px;
 }
@@ -307,6 +307,10 @@ nav {
   text-align: center;
   font-size: 38px;
   line-height: 49px;
+}
+
+.desc_approve .fill a {
+  color: #0b41af;
 }
 .desc_approve .dotted h3 {
   border: 2px dashed #0b41af;
