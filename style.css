@@ -11,6 +11,7 @@
 
 body {
   font-family: 'Inter', sans-serif;
+  /* background-color: #e5e5e5; */
 }
 
 a {
@@ -211,4 +212,127 @@ nav {
 .fourth_card {
   background-color: #fff4fd;
 }
-/* why choose arthan */ ;
+/* why choose arthan */
+
+/* loan approve */
+.loan_approve {
+  margin-top: 60px;
+  height: 596px;
+  background: linear-gradient(180deg, #f8f9fc 0%, rgba(248, 249, 252, 0) 100%);
+}
+.loan_approve .heading {
+  padding-top: 65px;
+  text-align: center;
+}
+.loan_approve .heading p {
+  color: #0b41af;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  margin: 15px 0;
+}
+.loan_approve .heading h1 {
+  font-size: 35px;
+  font-weight: bold;
+  margin: 15px 0;
+  line-height: 45px;
+}
+.desc_approve {
+  margin-top: 75px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+.desc_approve .cmn {
+  position: relative;
+}
+.desc_approve .fill::before {
+  display: block;
+  content: '';
+  border: 2px solid #0b41af;
+  width: 106%;
+  position: absolute;
+  left: -174px;
+  top: 51px;
+  border-radius: 100px;
+}
+.desc_approve .fill::after {
+  display: block;
+  content: '';
+  border: 2px solid #edf3fe;
+  width: 154%;
+  position: absolute;
+  left: 163px;
+  top: 51px;
+  border-radius: 100px;
+}
+.desc_approve .two::after {
+  display: block;
+  content: '';
+  border: 2px solid #edf3fe;
+  width: 84%;
+  position: absolute;
+  left: 256px;
+  top: 51px;
+  border-radius: 100px;
+}
+.desc_approve .three::after {
+  display: block;
+  content: '';
+  border: 2px solid #edf3fe;
+  width: 150%;
+  position: absolute;
+  left: 155px;
+  top: 51px;
+  border-radius: 100px;
+}
+.desc_approve .four::after {
+  display: block;
+  content: '';
+  border: 2px solid #edf3fe;
+  width: 74%;
+  position: absolute;
+  left: 222px;
+  top: 51px;
+  border-radius: 100px;
+}
+.desc_approve .fill h3 {
+  display: inline-block;
+  border: 1px solid #0b41af;
+  background-color: #0b41af;
+  color: #fff;
+  padding: 25px 26px;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 38px;
+  line-height: 49px;
+}
+.desc_approve .dotted h3 {
+  border: 2px dashed #0b41af;
+  border-style: dashed;
+  border-radius: 50%;
+  display: inline-block;
+  padding: 25px 26px;
+  color: #07193d;
+  background: #eaf1ff;
+  font-size: 38px;
+  line-height: 49px;
+  text-align: center;
+  color: #0b41af;
+}
+.desc_approve .cmn h1 {
+  margin-top: 32px;
+  color: #07193d;
+  font-size: 22px;
+  line-height: 28px;
+  font-weight: 600;
+}
+.desc_approve .cmn p {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: rgba(7, 25, 61, 0.7);
+}
+/* loan approve */
